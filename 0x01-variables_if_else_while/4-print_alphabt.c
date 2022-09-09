@@ -17,7 +17,7 @@ int main(void)
 	q = 'q';
 
 	for (low = 'a'; low <= 'z'; low++)
-	
+
 	{
 
 		if (low != e && low != q)
