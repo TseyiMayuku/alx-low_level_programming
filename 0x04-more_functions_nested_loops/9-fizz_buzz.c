@@ -3,6 +3,7 @@
 
 /**
  * main - prints Fizz Buzz each numbers of 3 and 5
+ *
  * Return: Always 0 (Success)
  */
 
