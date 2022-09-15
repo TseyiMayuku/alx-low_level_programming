@@ -2,37 +2,37 @@
 #include <stdio.h>
 
 /**
- * main - prints Buzz each numbers of 3 and 5
+ * main - prints Fizz Buzz each numbers of 3 and 5
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
+	int i;
 
-	n = 1;
-	_putchar("%d", n);
+	i = 1;
+	_putchar("%d", i);
 
-	for (n = 2; n <= 100; n++)
+	for (i = 2; i <= 100; i++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
 		_putchar("FizzBuzz");
 		}
 
-		else if (n % 3 == 0)
+		else if (i % 3 == 0)
 		{
 		_putchar("Fizz");
 		}
 
-		else if (n % 5 == 0)
+		else if (i % 5 == 0)
 		{
 		_putchar("Buzz");
 		}
 
 		else
 		{
-		_putchar("%d", n);
+		_putchar("%d", i);
 		}
 	}
 	_putchar("\n");
