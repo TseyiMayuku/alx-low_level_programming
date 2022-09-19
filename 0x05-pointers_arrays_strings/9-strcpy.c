@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sttdio.h>
+#include <stdio.h>
 
 /**
  * _strcpy - copies the string pointed to by src,
