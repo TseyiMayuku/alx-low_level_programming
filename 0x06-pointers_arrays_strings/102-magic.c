@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - program that prints 98
+ *
+ * Return: return 0
+ */
+
 int main(void)
 {
 	int n;
