@@ -9,7 +9,6 @@
  *
  * Return: no return
  */
-
 void _is_zero(char *argv[])
 {
 	int i, isn1 = 1, isn2 = 1;
@@ -32,7 +31,6 @@ void _is_zero(char *argv[])
 		exit(0);
 	}
 }
-
 /**
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
@@ -40,7 +38,6 @@ void _is_zero(char *argv[])
  *
  * Return: pointer of a char array.
  */
-
 char *_initialize_array(char *ar, int lar)
 {
 	int i = 0;
@@ -50,7 +47,6 @@ char *_initialize_array(char *ar, int lar)
 	ar[lar] = '\0';
 	return (ar);
 }
-
 /**
  * _checknum - determines length of the number
  * and checks if number is in base 10.
@@ -59,7 +55,6 @@ char *_initialize_array(char *ar, int lar)
  *
  * Return: length of the number.
  */
-
 int _checknum(char *argv[], int n)
 {
 	int ln;
@@ -72,7 +67,6 @@ int _checknum(char *argv[], int n)
 		}
 	return (ln);
 }
-
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
@@ -81,7 +75,6 @@ int _checknum(char *argv[], int n)
  *
  * Return: 0 - success.
  */
-
 int main(int argc, char *argv[])
 {
 	int ln1, ln2, lnout, add, addl, i, j, k, ca;
@@ -119,11 +112,10 @@ int main(int argc, char *argv[])
 		}
 		if (j >= 0)
 		{
-		add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
-		addl = add / 10, nout[k] = (add % 10) + '0';
+			add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
+			addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
 	printf("%s\n", nout);
-
 	return (0);
 }
