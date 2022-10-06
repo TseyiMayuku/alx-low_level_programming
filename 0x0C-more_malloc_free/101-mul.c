@@ -13,6 +13,7 @@
 void _is_zero(char *argv[])
 {
 	int i, isn1 = 1, isn2 = 1;
+
 	for (i = 0; argv[1][i]; i++)
 		if (argv[1][i] != '0')
 		{
@@ -33,7 +34,6 @@ void _is_zero(char *argv[])
 }
 
 /**
- *
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
@@ -44,6 +44,7 @@ void _is_zero(char *argv[])
 char *_initialize_array(char *ar, int lar)
 {
 	int i = 0;
+
 	for (i = 0; i < lar; i++)
 		ar[i] = '0';
 	ar[lar] = '\0';
@@ -62,6 +63,7 @@ char *_initialize_array(char *ar, int lar)
 int _checknum(char *argv[], int n)
 {
 	int ln;
+
 	for (ln = 0; argv[n][ln]; ln++)
 		if (!isdigit(argv[n][ln]))
 		{
@@ -122,6 +124,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%s\n", nout);
+
 	return (0);
 }
-
