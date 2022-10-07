@@ -6,7 +6,7 @@
  * main - Check the code
  * @argc: number of arguments
  * @argv: arguments
- * Return: return 0
+ * Return: return 0 (Success)
  */
 
 int main(int argc, char **argv)
