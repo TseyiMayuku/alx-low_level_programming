@@ -5,7 +5,7 @@
  * index
  * @n: unsigned long int input
  * @index: index of the bit
- * 
+ *
  * Return: value of the bit
  */
 
