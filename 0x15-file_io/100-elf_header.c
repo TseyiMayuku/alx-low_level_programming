@@ -142,6 +142,7 @@ void print_data(char *ptr)
  */
 void print_magic(char *ptr)
 {
+
 	int bytes;
 
 	printf("  Magic:  ");
@@ -150,6 +151,7 @@ void print_magic(char *ptr)
 		printf(" %02x", ptr[bytes]);
 
 	printf("\n");
+
 }
 
 /**
@@ -159,6 +161,7 @@ void print_magic(char *ptr)
  */
 void check_sys(char *ptr)
 {
+
 	char sys = ptr[4] + '0';
 
 	if (sys == '0')
@@ -178,6 +181,7 @@ void check_sys(char *ptr)
 	print_osabi(ptr);
 	print_type(ptr);
 	print_addr(ptr);
+
 }
 
 /**
