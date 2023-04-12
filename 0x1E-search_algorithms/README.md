@@ -1,1 +1,1 @@
-solution to search algorithms task
+solution to search algorithms tasks
